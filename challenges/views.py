@@ -4,20 +4,22 @@ from django.urls import reverse
 # from django.template.loader import render_to_string
 # Create your views here.
 
-monthly_challenges = {
-    "january": "january te sheet pore",
-    "february": "international mother language day",
-    "march": "march is march",
-    "april": "brish rasi",
-    "may": "january te sheet pore",
-    "june": "international mother language day",
-    "july": "march is march",
-    "august": "brish rasi",
-    "september": "january te sheet pore",
-    "october": "international mother language day",
-    "november": "march is march",
-    "december": "brish rasi",
+monthly_challenges= {
+    "january": "January marks the start of a new year and is often a time for setting resolutions and goals.",
+    "february": "February is the shortest month of the year.",
+    "march": "March marks the transition from winter to spring.",
+    "april": "April is a month associated with new beginnings and growth.",
+    "may": "May is a time of blossoming flowers and increasing daylight hours.",
+    "june": "June is the midpoint of the year and brings warmer weather.",
+    "july": "July is a month associated with summer vacations and outdoor activities.",
+    "august": "August is a time for relaxation and enjoying the last days of summer.",
+    "september": "September marks the beginning of autumn and the return to school for many.",
+    "october": "October is a month known for colorful fall foliage and harvest festivals.",
+    "november": "November is a time for gratitude and reflection.",
+    "december": None
+    # "December is a month of celebrations and festive spirit."
 }
+
 
 
 def index(request):  
