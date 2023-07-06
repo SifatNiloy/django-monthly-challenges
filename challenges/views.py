@@ -4,7 +4,7 @@ from django.urls import reverse
 # from django.template.loader import render_to_string
 # Create your views here.
 
-monthly_challenges= {
+monthly_challenges = {
     "january": "January marks the start of a new year and is often a time for setting resolutions and goals.",
     "february": "February is the shortest month of the year.",
     "march": "March marks the transition from winter to spring.",
@@ -21,12 +21,11 @@ monthly_challenges= {
 }
 
 
-
-def index(request):  
+def index(request):
     months = list(monthly_challenges.keys())
 
-    return render(request, "challenges/index.html",{
-        "months":months
+    return render(request, "challenges/index.html", {
+        "months": months
     })
 
 
